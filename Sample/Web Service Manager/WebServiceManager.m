@@ -31,7 +31,7 @@
     } failure:^(NSURLSessionTask *operation, NSError *error) {
 
         SBError *error1 = [[SBError alloc]init];
-        error1.errorDescription = [error description];
+        error1.errorDescription = [error localizedDescription];
         failure(error1);
     }];
 }
