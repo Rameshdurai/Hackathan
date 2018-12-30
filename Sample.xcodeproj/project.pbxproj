@@ -1,0 +1,1358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096693EA90A0FDEEACA6C7D8 /* libPods-SampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2811CF4801EDD8CEC23689B0 /* libPods-SampleTests.a */; };
+		4AA4B09621C7D2FA00B2CD75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B09521C7D2FA00B2CD75 /* AppDelegate.m */; };
+		4AA4B09921C7D2FA00B2CD75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B09821C7D2FA00B2CD75 /* ViewController.m */; };
+		4AA4B09C21C7D2FB00B2CD75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4B09A21C7D2FB00B2CD75 /* Main.storyboard */; };
+		4AA4B09E21C7D30D00B2CD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4B09D21C7D30D00B2CD75 /* Assets.xcassets */; };
+		4AA4B0A121C7D30D00B2CD75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4B09F21C7D30D00B2CD75 /* LaunchScreen.storyboard */; };
+		4AA4B0A421C7D30D00B2CD75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0A321C7D30D00B2CD75 /* main.m */; };
+		4AA4B0AE21C7D30F00B2CD75 /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0AD21C7D30F00B2CD75 /* SampleTests.m */; };
+		4AA4B0B921C7D30F00B2CD75 /* SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0B821C7D30F00B2CD75 /* SampleUITests.m */; };
+		4AA4B0CB21C7D49700B2CD75 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0CA21C7D49700B2CD75 /* Product.m */; };
+		4AA4B0CE21C7D4C200B2CD75 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0CD21C7D4C200B2CD75 /* ProductListViewController.m */; };
+		4AA4B0D121C7D4F300B2CD75 /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0D021C7D4F300B2CD75 /* WebServiceManager.m */; };
+		4AA4B0D421C7D6C400B2CD75 /* SBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0D321C7D6C400B2CD75 /* SBError.m */; };
+		4AA4B0D821C7D89900B2CD75 /* ProductParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4B0D721C7D89900B2CD75 /* ProductParser.m */; };
+		4AB7332121C7E0E800A2C487 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7332021C7E0E800A2C487 /* ProductTableViewCell.m */; };
+		4AB7335221C7F2AE00A2C487 /* Sample 2_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7335121C7F2AE00A2C487 /* Sample 2_0.jpg */; };
+		4AB7335421C7F70700A2C487 /* 698627-icon-111-search-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7335321C7F70700A2C487 /* 698627-icon-111-search-512.png */; };
+		4AB7335621C7F9A800A2C487 /* Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7335521C7F9A800A2C487 /* Bg.png */; };
+		4AB7335A21C805D800A2C487 /* SFActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7335921C805D800A2C487 /* SFActivityIndicator.m */; };
+		4AF3311521D8975000B59A9C /* bag_safai_red_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3308A21D8973800B59A9C /* bag_safai_red_9.jpg */; };
+		4AF3311621D8975000B59A9C /* bag_safai_white_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3308B21D8973900B59A9C /* bag_safai_white_2.jpg */; };
+		4AF3311721D8975000B59A9C /* kurta_green_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3308C21D8973900B59A9C /* kurta_green_1.jpg */; };
+		4AF3311821D8975000B59A9C /* camera_sony_A10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3308D21D8973900B59A9C /* camera_sony_A10.jpg */; };
+		4AF3311921D8975000B59A9C /* sarree_A3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3308E21D8973900B59A9C /* sarree_A3.jpg */; };
+		4AF3311A21D8975000B59A9C /* shirt_white_stripe_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3308F21D8973900B59A9C /* shirt_white_stripe_1.jpg */; };
+		4AF3311B21D8975000B59A9C /* mobile_lenova_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309021D8973900B59A9C /* mobile_lenova_1.jpg */; };
+		4AF3311C21D8975000B59A9C /* mobile_redmi_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309121D8973900B59A9C /* mobile_redmi_2.jpg */; };
+		4AF3311D21D8975000B59A9C /* bag_safai_red_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309221D8973A00B59A9C /* bag_safai_red_8.jpg */; };
+		4AF3311E21D8975000B59A9C /* bag_safai_red_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309321D8973A00B59A9C /* bag_safai_red_5.jpg */; };
+		4AF3311F21D8975000B59A9C /* jeans_peach_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309421D8973A00B59A9C /* jeans_peach_1.jpg */; };
+		4AF3312021D8975000B59A9C /* laptop_A3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309521D8973A00B59A9C /* laptop_A3.jpg */; };
+		4AF3312121D8975000B59A9C /* acer_laptop_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309621D8973A00B59A9C /* acer_laptop_1.jpg */; };
+		4AF3312221D8975000B59A9C /* dell_laptop_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309721D8973A00B59A9C /* dell_laptop_2.jpg */; };
+		4AF3312321D8975000B59A9C /* camera_sony_A5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309821D8973A00B59A9C /* camera_sony_A5.jpg */; };
+		4AF3312421D8975000B59A9C /* tshirt_red_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309921D8973B00B59A9C /* tshirt_red_formal_1.jpg */; };
+		4AF3312521D8975000B59A9C /* mobile_moto_A8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309A21D8973B00B59A9C /* mobile_moto_A8.jpg */; };
+		4AF3312621D8975000B59A9C /* bag_pink_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309B21D8973B00B59A9C /* bag_pink_1.jpg */; };
+		4AF3312721D8975000B59A9C /* bag_green_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309C21D8973B00B59A9C /* bag_green_1.jpg */; };
+		4AF3312821D8975000B59A9C /* mobile_samsung_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309D21D8973B00B59A9C /* mobile_samsung_1.jpg */; };
+		4AF3312921D8975000B59A9C /* bag_safai_red_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309E21D8973B00B59A9C /* bag_safai_red_7.jpg */; };
+		4AF3312A21D8975000B59A9C /* mobile_moto_A7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3309F21D8973B00B59A9C /* mobile_moto_A7.jpg */; };
+		4AF3312B21D8975000B59A9C /* mobile_moto_A5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A021D8973C00B59A9C /* mobile_moto_A5.jpg */; };
+		4AF3312C21D8975000B59A9C /* bag_safai_red_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A121D8973C00B59A9C /* bag_safai_red_6.jpg */; };
+		4AF3312D21D8975000B59A9C /* sarree_A11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A221D8973C00B59A9C /* sarree_A11.jpg */; };
+		4AF3312E21D8975000B59A9C /* mobile_moto_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A321D8973C00B59A9C /* mobile_moto_2.jpg */; };
+		4AF3312F21D8975000B59A9C /* bag_safai_black_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A421D8973C00B59A9C /* bag_safai_black_3.jpg */; };
+		4AF3313021D8975000B59A9C /* camera_sony_A9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A521D8973C00B59A9C /* camera_sony_A9.jpg */; };
+		4AF3313121D8975000B59A9C /* jeans_red_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A621D8973C00B59A9C /* jeans_red_1.jpg */; };
+		4AF3313221D8975000B59A9C /* sarree_A6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A721D8973C00B59A9C /* sarree_A6.jpg */; };
+		4AF3313321D8975000B59A9C /* bag_safai_white_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A821D8973D00B59A9C /* bag_safai_white_4.jpg */; };
+		4AF3313421D8975000B59A9C /* laptop_A2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330A921D8973D00B59A9C /* laptop_A2.jpg */; };
+		4AF3313521D8975000B59A9C /* bag_black_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330AA21D8973D00B59A9C /* bag_black_1.jpg */; };
+		4AF3313621D8975000B59A9C /* kurti_black_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330AB21D8973D00B59A9C /* kurti_black_1.jpg */; };
+		4AF3313721D8975000B59A9C /* mobile_nokia_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330AC21D8973D00B59A9C /* mobile_nokia_1.jpg */; };
+		4AF3313821D8975000B59A9C /* sarree_A5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330AD21D8973D00B59A9C /* sarree_A5.jpg */; };
+		4AF3313921D8975000B59A9C /* jeans_violet_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330AE21D8973D00B59A9C /* jeans_violet_1.jpg */; };
+		4AF3313A21D8975000B59A9C /* jeans_blue_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330AF21D8973E00B59A9C /* jeans_blue_1.jpg */; };
+		4AF3313B21D8975000B59A9C /* sarree_A10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B021D8973E00B59A9C /* sarree_A10.jpg */; };
+		4AF3313C21D8975000B59A9C /* sarree_A9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B121D8973E00B59A9C /* sarree_A9.jpg */; };
+		4AF3313D21D8975000B59A9C /* kurti_pink_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B221D8973E00B59A9C /* kurti_pink_1.jpg */; };
+		4AF3313E21D8975000B59A9C /* sarree_green_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B321D8973E00B59A9C /* sarree_green_1.jpg */; };
+		4AF3313F21D8975000B59A9C /* sarree_yellow_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B421D8973E00B59A9C /* sarree_yellow_1.jpg */; };
+		4AF3314021D8975000B59A9C /* mobile_oneplus_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B521D8973F00B59A9C /* mobile_oneplus_1.jpg */; };
+		4AF3314121D8975000B59A9C /* shirt_green_formal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B621D8973F00B59A9C /* shirt_green_formal_2.jpg */; };
+		4AF3314221D8975000B59A9C /* camera_sony_A2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B721D8974000B59A9C /* camera_sony_A2.jpg */; };
+		4AF3314321D8975000B59A9C /* shirt_red_checked_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B821D8974000B59A9C /* shirt_red_checked_1.jpg */; };
+		4AF3314421D8975000B59A9C /* shirt_balck_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330B921D8974000B59A9C /* shirt_balck_formal_1.jpg */; };
+		4AF3314521D8975000B59A9C /* shirt_pink_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330BA21D8974000B59A9C /* shirt_pink_formal_1.jpg */; };
+		4AF3314621D8975000B59A9C /* shirt_white_print_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330BB21D8974200B59A9C /* shirt_white_print_1.jpg */; };
+		4AF3314721D8975000B59A9C /* camera_canon_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330BC21D8974200B59A9C /* camera_canon_1.jpg */; };
+		4AF3314821D8975000B59A9C /* sarree_violet_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330BD21D8974200B59A9C /* sarree_violet_1.jpg */; };
+		4AF3314921D8975000B59A9C /* hp_laptop_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330BE21D8974200B59A9C /* hp_laptop_1.jpg */; };
+		4AF3314A21D8975000B59A9C /* jeans_pink_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330BF21D8974200B59A9C /* jeans_pink_1.jpg */; };
+		4AF3314B21D8975000B59A9C /* jeans_white_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C021D8974200B59A9C /* jeans_white_1.jpg */; };
+		4AF3314C21D8975000B59A9C /* mac_laptop_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C121D8974200B59A9C /* mac_laptop_1.jpg */; };
+		4AF3314D21D8975000B59A9C /* bag_red_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C221D8974200B59A9C /* bag_red_3.jpg */; };
+		4AF3314E21D8975000B59A9C /* camera_sony_A7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C321D8974300B59A9C /* camera_sony_A7.jpg */; };
+		4AF3314F21D8975000B59A9C /* shirt_blue_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C421D8974300B59A9C /* shirt_blue_formal_1.jpg */; };
+		4AF3315021D8975000B59A9C /* shirt_violet_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C521D8974300B59A9C /* shirt_violet_formal_1.jpg */; };
+		4AF3315121D8975000B59A9C /* tshirt_yello_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C621D8974300B59A9C /* tshirt_yello_formal_1.jpg */; };
+		4AF3315221D8975000B59A9C /* bag_safai_white_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C721D8974300B59A9C /* bag_safai_white_3.jpg */; };
+		4AF3315321D8975000B59A9C /* lenova_laptop_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C821D8974300B59A9C /* lenova_laptop_2.jpg */; };
+		4AF3315421D8975000B59A9C /* bag_safai_white_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330C921D8974300B59A9C /* bag_safai_white_5.jpg */; };
+		4AF3315521D8975000B59A9C /* bag_safai_red_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330CA21D8974300B59A9C /* bag_safai_red_10.jpg */; };
+		4AF3315621D8975000B59A9C /* camera_nikon_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330CB21D8974300B59A9C /* camera_nikon_1.jpg */; };
+		4AF3315721D8975000B59A9C /* lenova_laptop_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330CC21D8974400B59A9C /* lenova_laptop_1.jpg */; };
+		4AF3315821D8975000B59A9C /* tshirt_pink_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330CD21D8974400B59A9C /* tshirt_pink_formal_1.jpg */; };
+		4AF3315921D8975000B59A9C /* kurti_blue_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330CE21D8974400B59A9C /* kurti_blue_1.jpg */; };
+		4AF3315A21D8975000B59A9C /* mobile_samsung_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330CF21D8974400B59A9C /* mobile_samsung_2.jpg */; };
+		4AF3315B21D8975000B59A9C /* sarree_A1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D021D8974400B59A9C /* sarree_A1.jpg */; };
+		4AF3315C21D8975000B59A9C /* bag_white_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D121D8974400B59A9C /* bag_white_1.jpg */; };
+		4AF3315D21D8975000B59A9C /* tshirt_violet_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D221D8974400B59A9C /* tshirt_violet_formal_1.jpg */; };
+		4AF3315E21D8975000B59A9C /* mobile_moto_A10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D321D8974400B59A9C /* mobile_moto_A10.jpg */; };
+		4AF3315F21D8975000B59A9C /* hp_laptop_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D421D8974400B59A9C /* hp_laptop_2.jpg */; };
+		4AF3316021D8975000B59A9C /* kurti_peach_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D521D8974400B59A9C /* kurti_peach_1.jpg */; };
+		4AF3316121D8975000B59A9C /* dell_laptop_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D621D8974500B59A9C /* dell_laptop_1.jpg */; };
+		4AF3316221D8975000B59A9C /* camera_sony_A6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D721D8974500B59A9C /* camera_sony_A6.jpg */; };
+		4AF3316321D8975000B59A9C /* camera_canon_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D821D8974500B59A9C /* camera_canon_2.jpg */; };
+		4AF3316421D8975000B59A9C /* laptop_A1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330D921D8974500B59A9C /* laptop_A1.jpg */; };
+		4AF3316521D8975000B59A9C /* laptop_A4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330DA21D8974500B59A9C /* laptop_A4.jpg */; };
+		4AF3316621D8975000B59A9C /* mobile_honor_blue_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330DB21D8974500B59A9C /* mobile_honor_blue_1.jpg */; };
+		4AF3316721D8975000B59A9C /* jeans_black_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330DC21D8974500B59A9C /* jeans_black_1.jpg */; };
+		4AF3316821D8975000B59A9C /* sarree_A7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330DD21D8974500B59A9C /* sarree_A7.jpg */; };
+		4AF3316921D8975000B59A9C /* kurti_white_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330DE21D8974600B59A9C /* kurti_white_1.jpg */; };
+		4AF3316A21D8975000B59A9C /* laptop_A5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330DF21D8974600B59A9C /* laptop_A5.jpg */; };
+		4AF3316B21D8975000B59A9C /* bag_safai_black_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E021D8974600B59A9C /* bag_safai_black_1.jpg */; };
+		4AF3316C21D8975000B59A9C /* bag_safai_red_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E121D8974600B59A9C /* bag_safai_red_12.jpg */; };
+		4AF3316D21D8975000B59A9C /* sarree_blue_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E221D8974600B59A9C /* sarree_blue_1.jpg */; };
+		4AF3316E21D8975000B59A9C /* bag_safai_white_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E321D8974600B59A9C /* bag_safai_white_1.jpg */; };
+		4AF3316F21D8975000B59A9C /* sarree_A4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E421D8974600B59A9C /* sarree_A4.jpg */; };
+		4AF3317021D8975000B59A9C /* mobile_moto_A6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E521D8974600B59A9C /* mobile_moto_A6.jpg */; };
+		4AF3317121D8975000B59A9C /* mobile_moto_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E621D8974600B59A9C /* mobile_moto_1.jpg */; };
+		4AF3317221D8975000B59A9C /* bag_safai_black_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E721D8974600B59A9C /* bag_safai_black_6.jpg */; };
+		4AF3317321D8975000B59A9C /* mobile_moto_A3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E821D8974600B59A9C /* mobile_moto_A3.jpg */; };
+		4AF3317421D8975000B59A9C /* bag_safai_red_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330E921D8974700B59A9C /* bag_safai_red_3.jpg */; };
+		4AF3317521D8975000B59A9C /* camera_sony_A8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330EA21D8974700B59A9C /* camera_sony_A8.jpg */; };
+		4AF3317621D8975000B59A9C /* sarree_A8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330EB21D8974700B59A9C /* sarree_A8.jpg */; };
+		4AF3317721D8975000B59A9C /* mobile_moto_A9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330EC21D8974700B59A9C /* mobile_moto_A9.jpg */; };
+		4AF3317821D8975000B59A9C /* hp_laptop_envy_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330ED21D8974700B59A9C /* hp_laptop_envy_1.jpg */; };
+		4AF3317921D8975000B59A9C /* sarree_white_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330EE21D8974700B59A9C /* sarree_white_1.jpg */; };
+		4AF3317A21D8975000B59A9C /* jeans_white_strech_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330EF21D8974800B59A9C /* jeans_white_strech_1.jpg */; };
+		4AF3317B21D8975000B59A9C /* shirt_peach_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F021D8974800B59A9C /* shirt_peach_formal_1.jpg */; };
+		4AF3317C21D8975000B59A9C /* jeans_yellow_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F121D8974800B59A9C /* jeans_yellow_1.jpg */; };
+		4AF3317D21D8975000B59A9C /* sarree_A2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F221D8974800B59A9C /* sarree_A2.jpg */; };
+		4AF3317E21D8975000B59A9C /* bag_red_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F321D8974800B59A9C /* bag_red_1.jpg */; };
+		4AF3317F21D8975000B59A9C /* tshirt_blue_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F421D8974800B59A9C /* tshirt_blue_formal_1.jpg */; };
+		4AF3318021D8975000B59A9C /* mobile_moto_A1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F521D8974800B59A9C /* mobile_moto_A1.jpg */; };
+		4AF3318121D8975000B59A9C /* bag_safai_red_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F621D8974900B59A9C /* bag_safai_red_1.jpg */; };
+		4AF3318221D8975000B59A9C /* bag_red_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F721D8974900B59A9C /* bag_red_2.jpg */; };
+		4AF3318321D8975000B59A9C /* bag_safai_black_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F821D8974900B59A9C /* bag_safai_black_5.jpg */; };
+		4AF3318421D8975000B59A9C /* camera_sony_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330F921D8974900B59A9C /* camera_sony_2.jpg */; };
+		4AF3318521D8975000B59A9C /* mobile_moto_A2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330FA21D8974900B59A9C /* mobile_moto_A2.jpg */; };
+		4AF3318621D8975000B59A9C /* hp_laptop_envy_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330FB21D8974900B59A9C /* hp_laptop_envy_2.jpg */; };
+		4AF3318721D8975000B59A9C /* bag_safai_red_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330FC21D8974A00B59A9C /* bag_safai_red_4.jpg */; };
+		4AF3318821D8975000B59A9C /* shirt_black_formal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330FD21D8974A00B59A9C /* shirt_black_formal_2.jpg */; };
+		4AF3318921D8975000B59A9C /* micromax_laptop_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330FE21D8974A00B59A9C /* micromax_laptop_1.jpg */; };
+		4AF3318A21D8975000B59A9C /* shirt_yellow_formal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF330FF21D8974A00B59A9C /* shirt_yellow_formal_1.jpg */; };
+		4AF3318B21D8975000B59A9C /* sarree_red_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310021D8974A00B59A9C /* sarree_red_1.jpg */; };
+		4AF3318C21D8975000B59A9C /* shirt_white_plain_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310121D8974A00B59A9C /* shirt_white_plain_1.jpg */; };
+		4AF3318D21D8975000B59A9C /* mobile_redmi_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310221D8974A00B59A9C /* mobile_redmi_3.jpg */; };
+		4AF3318E21D8975000B59A9C /* camera_sony_A1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310321D8974B00B59A9C /* camera_sony_A1.jpg */; };
+		4AF3318F21D8975000B59A9C /* mobile_moto_A4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310421D8974B00B59A9C /* mobile_moto_A4.jpg */; };
+		4AF3319021D8975000B59A9C /* mobile_redmi_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310521D8974B00B59A9C /* mobile_redmi_1.jpg */; };
+		4AF3319121D8975000B59A9C /* laptop_A6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310621D8974B00B59A9C /* laptop_A6.jpg */; };
+		4AF3319221D8975000B59A9C /* shirt_peach_formal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310721D8974B00B59A9C /* shirt_peach_formal_2.jpg */; };
+		4AF3319321D8975000B59A9C /* shirt_white_formal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310821D8974B00B59A9C /* shirt_white_formal_2.jpg */; };
+		4AF3319421D8975000B59A9C /* camera_sony_A3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310921D8974B00B59A9C /* camera_sony_A3.jpg */; };
+		4AF3319521D8975000B59A9C /* camera_canon_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310A21D8974C00B59A9C /* camera_canon_3.jpg */; };
+		4AF3319621D8975000B59A9C /* bag_safai_black_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310B21D8974C00B59A9C /* bag_safai_black_2.jpg */; };
+		4AF3319721D8975000B59A9C /* camera_sony_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310C21D8974C00B59A9C /* camera_sony_1.jpg */; };
+		4AF3319821D8975000B59A9C /* bag_safai_red_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310D21D8974C00B59A9C /* bag_safai_red_11.jpg */; };
+		4AF3319921D8975000B59A9C /* bag_safai_red_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310E21D8974C00B59A9C /* bag_safai_red_2.jpg */; };
+		4AF3319A21D8975000B59A9C /* bag_yellow_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3310F21D8974C00B59A9C /* bag_yellow_1.jpg */; };
+		4AF3319B21D8975000B59A9C /* mobile_nokia_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3311021D8974D00B59A9C /* mobile_nokia_2.jpg */; };
+		4AF3319C21D8975000B59A9C /* camera_sony_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3311121D8974F00B59A9C /* camera_sony_3.jpg */; };
+		4AF3319D21D8975000B59A9C /* bag_safai_black_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3311221D8974F00B59A9C /* bag_safai_black_4.jpg */; };
+		4AF3319E21D8975000B59A9C /* shirt_fromal_green_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3311321D8974F00B59A9C /* shirt_fromal_green_1.jpg */; };
+		4AF3319F21D8975000B59A9C /* camera_sony_A4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AF3311421D8974F00B59A9C /* camera_sony_A4.jpg */; };
+		DFBB064DBAB978CE731EEBB2 /* libPods-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 209F89DA625CA895B03BD61B /* libPods-Sample.a */; };
+		F9B318FA14D1C1B27CFD6AEA /* libPods-SampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3392B5A68C8A1FA25938F19A /* libPods-SampleUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AA4B0AA21C7D30F00B2CD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA4B08921C7D2F800B2CD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA4B09021C7D2F800B2CD75;
+			remoteInfo = Sample;
+		};
+		4AA4B0B521C7D30F00B2CD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AA4B08921C7D2F800B2CD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA4B09021C7D2F800B2CD75;
+			remoteInfo = Sample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		209F89DA625CA895B03BD61B /* libPods-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2811CF4801EDD8CEC23689B0 /* libPods-SampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3392B5A68C8A1FA25938F19A /* libPods-SampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA4B09121C7D2F800B2CD75 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA4B09421C7D2FA00B2CD75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AA4B09521C7D2FA00B2CD75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AA4B09721C7D2FA00B2CD75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AA4B09821C7D2FA00B2CD75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AA4B09B21C7D2FB00B2CD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AA4B09D21C7D30D00B2CD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA4B0A021C7D30D00B2CD75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AA4B0A221C7D30D00B2CD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA4B0A321C7D30D00B2CD75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AA4B0A921C7D30F00B2CD75 /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA4B0AD21C7D30F00B2CD75 /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		4AA4B0AF21C7D30F00B2CD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA4B0B421C7D30F00B2CD75 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA4B0B821C7D30F00B2CD75 /* SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleUITests.m; sourceTree = "<group>"; };
+		4AA4B0BA21C7D30F00B2CD75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA4B0C921C7D49700B2CD75 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		4AA4B0CA21C7D49700B2CD75 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		4AA4B0CC21C7D4C200B2CD75 /* ProductListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		4AA4B0CD21C7D4C200B2CD75 /* ProductListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		4AA4B0CF21C7D4F300B2CD75 /* WebServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		4AA4B0D021C7D4F300B2CD75 /* WebServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		4AA4B0D221C7D6C400B2CD75 /* SBError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBError.h; sourceTree = "<group>"; };
+		4AA4B0D321C7D6C400B2CD75 /* SBError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBError.m; sourceTree = "<group>"; };
+		4AA4B0D621C7D89900B2CD75 /* ProductParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductParser.h; sourceTree = "<group>"; };
+		4AA4B0D721C7D89900B2CD75 /* ProductParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductParser.m; sourceTree = "<group>"; };
+		4AB7331F21C7E0E800A2C487 /* ProductTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		4AB7332021C7E0E800A2C487 /* ProductTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		4AB7335121C7F2AE00A2C487 /* Sample 2_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sample 2_0.jpg"; sourceTree = "<group>"; };
+		4AB7335321C7F70700A2C487 /* 698627-icon-111-search-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "698627-icon-111-search-512.png"; sourceTree = "<group>"; };
+		4AB7335521C7F9A800A2C487 /* Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bg.png; sourceTree = "<group>"; };
+		4AB7335821C805D800A2C487 /* SFActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFActivityIndicator.h; sourceTree = "<group>"; };
+		4AB7335921C805D800A2C487 /* SFActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFActivityIndicator.m; sourceTree = "<group>"; };
+		4AF3308A21D8973800B59A9C /* bag_safai_red_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_9.jpg; sourceTree = "<group>"; };
+		4AF3308B21D8973900B59A9C /* bag_safai_white_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_white_2.jpg; sourceTree = "<group>"; };
+		4AF3308C21D8973900B59A9C /* kurta_green_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kurta_green_1.jpg; sourceTree = "<group>"; };
+		4AF3308D21D8973900B59A9C /* camera_sony_A10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A10.jpg; sourceTree = "<group>"; };
+		4AF3308E21D8973900B59A9C /* sarree_A3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A3.jpg; sourceTree = "<group>"; };
+		4AF3308F21D8973900B59A9C /* shirt_white_stripe_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_white_stripe_1.jpg; sourceTree = "<group>"; };
+		4AF3309021D8973900B59A9C /* mobile_lenova_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_lenova_1.jpg; sourceTree = "<group>"; };
+		4AF3309121D8973900B59A9C /* mobile_redmi_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_redmi_2.jpg; sourceTree = "<group>"; };
+		4AF3309221D8973A00B59A9C /* bag_safai_red_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_8.jpg; sourceTree = "<group>"; };
+		4AF3309321D8973A00B59A9C /* bag_safai_red_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_5.jpg; sourceTree = "<group>"; };
+		4AF3309421D8973A00B59A9C /* jeans_peach_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_peach_1.jpg; sourceTree = "<group>"; };
+		4AF3309521D8973A00B59A9C /* laptop_A3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop_A3.jpg; sourceTree = "<group>"; };
+		4AF3309621D8973A00B59A9C /* acer_laptop_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acer_laptop_1.jpg; sourceTree = "<group>"; };
+		4AF3309721D8973A00B59A9C /* dell_laptop_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dell_laptop_2.jpg; sourceTree = "<group>"; };
+		4AF3309821D8973A00B59A9C /* camera_sony_A5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A5.jpg; sourceTree = "<group>"; };
+		4AF3309921D8973B00B59A9C /* tshirt_red_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt_red_formal_1.jpg; sourceTree = "<group>"; };
+		4AF3309A21D8973B00B59A9C /* mobile_moto_A8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A8.jpg; sourceTree = "<group>"; };
+		4AF3309B21D8973B00B59A9C /* bag_pink_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_pink_1.jpg; sourceTree = "<group>"; };
+		4AF3309C21D8973B00B59A9C /* bag_green_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_green_1.jpg; sourceTree = "<group>"; };
+		4AF3309D21D8973B00B59A9C /* mobile_samsung_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_samsung_1.jpg; sourceTree = "<group>"; };
+		4AF3309E21D8973B00B59A9C /* bag_safai_red_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_7.jpg; sourceTree = "<group>"; };
+		4AF3309F21D8973B00B59A9C /* mobile_moto_A7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A7.jpg; sourceTree = "<group>"; };
+		4AF330A021D8973C00B59A9C /* mobile_moto_A5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A5.jpg; sourceTree = "<group>"; };
+		4AF330A121D8973C00B59A9C /* bag_safai_red_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_6.jpg; sourceTree = "<group>"; };
+		4AF330A221D8973C00B59A9C /* sarree_A11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A11.jpg; sourceTree = "<group>"; };
+		4AF330A321D8973C00B59A9C /* mobile_moto_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_2.jpg; sourceTree = "<group>"; };
+		4AF330A421D8973C00B59A9C /* bag_safai_black_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_black_3.jpg; sourceTree = "<group>"; };
+		4AF330A521D8973C00B59A9C /* camera_sony_A9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A9.jpg; sourceTree = "<group>"; };
+		4AF330A621D8973C00B59A9C /* jeans_red_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_red_1.jpg; sourceTree = "<group>"; };
+		4AF330A721D8973C00B59A9C /* sarree_A6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A6.jpg; sourceTree = "<group>"; };
+		4AF330A821D8973D00B59A9C /* bag_safai_white_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_white_4.jpg; sourceTree = "<group>"; };
+		4AF330A921D8973D00B59A9C /* laptop_A2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop_A2.jpg; sourceTree = "<group>"; };
+		4AF330AA21D8973D00B59A9C /* bag_black_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_black_1.jpg; sourceTree = "<group>"; };
+		4AF330AB21D8973D00B59A9C /* kurti_black_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kurti_black_1.jpg; sourceTree = "<group>"; };
+		4AF330AC21D8973D00B59A9C /* mobile_nokia_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_nokia_1.jpg; sourceTree = "<group>"; };
+		4AF330AD21D8973D00B59A9C /* sarree_A5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A5.jpg; sourceTree = "<group>"; };
+		4AF330AE21D8973D00B59A9C /* jeans_violet_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_violet_1.jpg; sourceTree = "<group>"; };
+		4AF330AF21D8973E00B59A9C /* jeans_blue_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_blue_1.jpg; sourceTree = "<group>"; };
+		4AF330B021D8973E00B59A9C /* sarree_A10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A10.jpg; sourceTree = "<group>"; };
+		4AF330B121D8973E00B59A9C /* sarree_A9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A9.jpg; sourceTree = "<group>"; };
+		4AF330B221D8973E00B59A9C /* kurti_pink_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kurti_pink_1.jpg; sourceTree = "<group>"; };
+		4AF330B321D8973E00B59A9C /* sarree_green_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_green_1.jpg; sourceTree = "<group>"; };
+		4AF330B421D8973E00B59A9C /* sarree_yellow_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_yellow_1.jpg; sourceTree = "<group>"; };
+		4AF330B521D8973F00B59A9C /* mobile_oneplus_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_oneplus_1.jpg; sourceTree = "<group>"; };
+		4AF330B621D8973F00B59A9C /* shirt_green_formal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_green_formal_2.jpg; sourceTree = "<group>"; };
+		4AF330B721D8974000B59A9C /* camera_sony_A2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A2.jpg; sourceTree = "<group>"; };
+		4AF330B821D8974000B59A9C /* shirt_red_checked_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_red_checked_1.jpg; sourceTree = "<group>"; };
+		4AF330B921D8974000B59A9C /* shirt_balck_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_balck_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330BA21D8974000B59A9C /* shirt_pink_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_pink_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330BB21D8974200B59A9C /* shirt_white_print_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_white_print_1.jpg; sourceTree = "<group>"; };
+		4AF330BC21D8974200B59A9C /* camera_canon_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_canon_1.jpg; sourceTree = "<group>"; };
+		4AF330BD21D8974200B59A9C /* sarree_violet_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_violet_1.jpg; sourceTree = "<group>"; };
+		4AF330BE21D8974200B59A9C /* hp_laptop_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hp_laptop_1.jpg; sourceTree = "<group>"; };
+		4AF330BF21D8974200B59A9C /* jeans_pink_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_pink_1.jpg; sourceTree = "<group>"; };
+		4AF330C021D8974200B59A9C /* jeans_white_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_white_1.jpg; sourceTree = "<group>"; };
+		4AF330C121D8974200B59A9C /* mac_laptop_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mac_laptop_1.jpg; sourceTree = "<group>"; };
+		4AF330C221D8974200B59A9C /* bag_red_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_red_3.jpg; sourceTree = "<group>"; };
+		4AF330C321D8974300B59A9C /* camera_sony_A7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A7.jpg; sourceTree = "<group>"; };
+		4AF330C421D8974300B59A9C /* shirt_blue_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_blue_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330C521D8974300B59A9C /* shirt_violet_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_violet_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330C621D8974300B59A9C /* tshirt_yello_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt_yello_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330C721D8974300B59A9C /* bag_safai_white_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_white_3.jpg; sourceTree = "<group>"; };
+		4AF330C821D8974300B59A9C /* lenova_laptop_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenova_laptop_2.jpg; sourceTree = "<group>"; };
+		4AF330C921D8974300B59A9C /* bag_safai_white_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_white_5.jpg; sourceTree = "<group>"; };
+		4AF330CA21D8974300B59A9C /* bag_safai_red_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_10.jpg; sourceTree = "<group>"; };
+		4AF330CB21D8974300B59A9C /* camera_nikon_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_nikon_1.jpg; sourceTree = "<group>"; };
+		4AF330CC21D8974400B59A9C /* lenova_laptop_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lenova_laptop_1.jpg; sourceTree = "<group>"; };
+		4AF330CD21D8974400B59A9C /* tshirt_pink_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt_pink_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330CE21D8974400B59A9C /* kurti_blue_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kurti_blue_1.jpg; sourceTree = "<group>"; };
+		4AF330CF21D8974400B59A9C /* mobile_samsung_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_samsung_2.jpg; sourceTree = "<group>"; };
+		4AF330D021D8974400B59A9C /* sarree_A1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A1.jpg; sourceTree = "<group>"; };
+		4AF330D121D8974400B59A9C /* bag_white_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_white_1.jpg; sourceTree = "<group>"; };
+		4AF330D221D8974400B59A9C /* tshirt_violet_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt_violet_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330D321D8974400B59A9C /* mobile_moto_A10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A10.jpg; sourceTree = "<group>"; };
+		4AF330D421D8974400B59A9C /* hp_laptop_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hp_laptop_2.jpg; sourceTree = "<group>"; };
+		4AF330D521D8974400B59A9C /* kurti_peach_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kurti_peach_1.jpg; sourceTree = "<group>"; };
+		4AF330D621D8974500B59A9C /* dell_laptop_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dell_laptop_1.jpg; sourceTree = "<group>"; };
+		4AF330D721D8974500B59A9C /* camera_sony_A6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A6.jpg; sourceTree = "<group>"; };
+		4AF330D821D8974500B59A9C /* camera_canon_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_canon_2.jpg; sourceTree = "<group>"; };
+		4AF330D921D8974500B59A9C /* laptop_A1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop_A1.jpg; sourceTree = "<group>"; };
+		4AF330DA21D8974500B59A9C /* laptop_A4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop_A4.jpg; sourceTree = "<group>"; };
+		4AF330DB21D8974500B59A9C /* mobile_honor_blue_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_honor_blue_1.jpg; sourceTree = "<group>"; };
+		4AF330DC21D8974500B59A9C /* jeans_black_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_black_1.jpg; sourceTree = "<group>"; };
+		4AF330DD21D8974500B59A9C /* sarree_A7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A7.jpg; sourceTree = "<group>"; };
+		4AF330DE21D8974600B59A9C /* kurti_white_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kurti_white_1.jpg; sourceTree = "<group>"; };
+		4AF330DF21D8974600B59A9C /* laptop_A5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop_A5.jpg; sourceTree = "<group>"; };
+		4AF330E021D8974600B59A9C /* bag_safai_black_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_black_1.jpg; sourceTree = "<group>"; };
+		4AF330E121D8974600B59A9C /* bag_safai_red_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_12.jpg; sourceTree = "<group>"; };
+		4AF330E221D8974600B59A9C /* sarree_blue_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_blue_1.jpg; sourceTree = "<group>"; };
+		4AF330E321D8974600B59A9C /* bag_safai_white_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_white_1.jpg; sourceTree = "<group>"; };
+		4AF330E421D8974600B59A9C /* sarree_A4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A4.jpg; sourceTree = "<group>"; };
+		4AF330E521D8974600B59A9C /* mobile_moto_A6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A6.jpg; sourceTree = "<group>"; };
+		4AF330E621D8974600B59A9C /* mobile_moto_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_1.jpg; sourceTree = "<group>"; };
+		4AF330E721D8974600B59A9C /* bag_safai_black_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_black_6.jpg; sourceTree = "<group>"; };
+		4AF330E821D8974600B59A9C /* mobile_moto_A3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A3.jpg; sourceTree = "<group>"; };
+		4AF330E921D8974700B59A9C /* bag_safai_red_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_3.jpg; sourceTree = "<group>"; };
+		4AF330EA21D8974700B59A9C /* camera_sony_A8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A8.jpg; sourceTree = "<group>"; };
+		4AF330EB21D8974700B59A9C /* sarree_A8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A8.jpg; sourceTree = "<group>"; };
+		4AF330EC21D8974700B59A9C /* mobile_moto_A9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A9.jpg; sourceTree = "<group>"; };
+		4AF330ED21D8974700B59A9C /* hp_laptop_envy_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hp_laptop_envy_1.jpg; sourceTree = "<group>"; };
+		4AF330EE21D8974700B59A9C /* sarree_white_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_white_1.jpg; sourceTree = "<group>"; };
+		4AF330EF21D8974800B59A9C /* jeans_white_strech_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_white_strech_1.jpg; sourceTree = "<group>"; };
+		4AF330F021D8974800B59A9C /* shirt_peach_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_peach_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330F121D8974800B59A9C /* jeans_yellow_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_yellow_1.jpg; sourceTree = "<group>"; };
+		4AF330F221D8974800B59A9C /* sarree_A2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_A2.jpg; sourceTree = "<group>"; };
+		4AF330F321D8974800B59A9C /* bag_red_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_red_1.jpg; sourceTree = "<group>"; };
+		4AF330F421D8974800B59A9C /* tshirt_blue_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt_blue_formal_1.jpg; sourceTree = "<group>"; };
+		4AF330F521D8974800B59A9C /* mobile_moto_A1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A1.jpg; sourceTree = "<group>"; };
+		4AF330F621D8974900B59A9C /* bag_safai_red_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_1.jpg; sourceTree = "<group>"; };
+		4AF330F721D8974900B59A9C /* bag_red_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_red_2.jpg; sourceTree = "<group>"; };
+		4AF330F821D8974900B59A9C /* bag_safai_black_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_black_5.jpg; sourceTree = "<group>"; };
+		4AF330F921D8974900B59A9C /* camera_sony_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_2.jpg; sourceTree = "<group>"; };
+		4AF330FA21D8974900B59A9C /* mobile_moto_A2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A2.jpg; sourceTree = "<group>"; };
+		4AF330FB21D8974900B59A9C /* hp_laptop_envy_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hp_laptop_envy_2.jpg; sourceTree = "<group>"; };
+		4AF330FC21D8974A00B59A9C /* bag_safai_red_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_4.jpg; sourceTree = "<group>"; };
+		4AF330FD21D8974A00B59A9C /* shirt_black_formal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_black_formal_2.jpg; sourceTree = "<group>"; };
+		4AF330FE21D8974A00B59A9C /* micromax_laptop_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = micromax_laptop_1.jpg; sourceTree = "<group>"; };
+		4AF330FF21D8974A00B59A9C /* shirt_yellow_formal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_yellow_formal_1.jpg; sourceTree = "<group>"; };
+		4AF3310021D8974A00B59A9C /* sarree_red_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarree_red_1.jpg; sourceTree = "<group>"; };
+		4AF3310121D8974A00B59A9C /* shirt_white_plain_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_white_plain_1.jpg; sourceTree = "<group>"; };
+		4AF3310221D8974A00B59A9C /* mobile_redmi_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_redmi_3.jpg; sourceTree = "<group>"; };
+		4AF3310321D8974B00B59A9C /* camera_sony_A1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A1.jpg; sourceTree = "<group>"; };
+		4AF3310421D8974B00B59A9C /* mobile_moto_A4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_moto_A4.jpg; sourceTree = "<group>"; };
+		4AF3310521D8974B00B59A9C /* mobile_redmi_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_redmi_1.jpg; sourceTree = "<group>"; };
+		4AF3310621D8974B00B59A9C /* laptop_A6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop_A6.jpg; sourceTree = "<group>"; };
+		4AF3310721D8974B00B59A9C /* shirt_peach_formal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_peach_formal_2.jpg; sourceTree = "<group>"; };
+		4AF3310821D8974B00B59A9C /* shirt_white_formal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_white_formal_2.jpg; sourceTree = "<group>"; };
+		4AF3310921D8974B00B59A9C /* camera_sony_A3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A3.jpg; sourceTree = "<group>"; };
+		4AF3310A21D8974C00B59A9C /* camera_canon_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_canon_3.jpg; sourceTree = "<group>"; };
+		4AF3310B21D8974C00B59A9C /* bag_safai_black_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_black_2.jpg; sourceTree = "<group>"; };
+		4AF3310C21D8974C00B59A9C /* camera_sony_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_1.jpg; sourceTree = "<group>"; };
+		4AF3310D21D8974C00B59A9C /* bag_safai_red_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_11.jpg; sourceTree = "<group>"; };
+		4AF3310E21D8974C00B59A9C /* bag_safai_red_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_red_2.jpg; sourceTree = "<group>"; };
+		4AF3310F21D8974C00B59A9C /* bag_yellow_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_yellow_1.jpg; sourceTree = "<group>"; };
+		4AF3311021D8974D00B59A9C /* mobile_nokia_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mobile_nokia_2.jpg; sourceTree = "<group>"; };
+		4AF3311121D8974F00B59A9C /* camera_sony_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_3.jpg; sourceTree = "<group>"; };
+		4AF3311221D8974F00B59A9C /* bag_safai_black_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag_safai_black_4.jpg; sourceTree = "<group>"; };
+		4AF3311321D8974F00B59A9C /* shirt_fromal_green_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shirt_fromal_green_1.jpg; sourceTree = "<group>"; };
+		4AF3311421D8974F00B59A9C /* camera_sony_A4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera_sony_A4.jpg; sourceTree = "<group>"; };
+		6909F193307C021ADBEAF4A1 /* Pods-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUITests/Pods-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3E60DD5B01370B3F37AA0ED /* Pods-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleTests/Pods-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB86ECCAAD95547DAC83C56E /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		C31341B713E946694A22DC0A /* Pods-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleUITests/Pods-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2C3AB0EC58438F252E9231C /* Pods-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleTests/Pods-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F77AEE2FD513F424306DB9E7 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA4B08E21C7D2F800B2CD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBB064DBAB978CE731EEBB2 /* libPods-Sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA4B0A621C7D30F00B2CD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096693EA90A0FDEEACA6C7D8 /* libPods-SampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA4B0B121C7D30F00B2CD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B318FA14D1C1B27CFD6AEA /* libPods-SampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA4B08821C7D2F800B2CD75 = {
+			isa = PBXGroup;
+			children = (
+				4AA4B09321C7D2FA00B2CD75 /* Sample */,
+				4AA4B0AC21C7D30F00B2CD75 /* SampleTests */,
+				4AA4B0B721C7D30F00B2CD75 /* SampleUITests */,
+				4AA4B09221C7D2F800B2CD75 /* Products */,
+				EE4ABFC1FA49348680569903 /* Pods */,
+				747E12E573040F8AAFB9892B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA4B09221C7D2F800B2CD75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B09121C7D2F800B2CD75 /* Sample.app */,
+				4AA4B0A921C7D30F00B2CD75 /* SampleTests.xctest */,
+				4AA4B0B421C7D30F00B2CD75 /* SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA4B09321C7D2FA00B2CD75 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				4AB7335B21C8C12700A2C487 /* Images */,
+				4AB7335721C805D800A2C487 /* Loder */,
+				4AB7335521C7F9A800A2C487 /* Bg.png */,
+				4AB7335321C7F70700A2C487 /* 698627-icon-111-search-512.png */,
+				4AB7335121C7F2AE00A2C487 /* Sample 2_0.jpg */,
+				4AB7331E21C7E0AB00A2C487 /* Table View Cells */,
+				4AA4B0D521C7D87600B2CD75 /* Parser */,
+				4AA4B0C721C7D46100B2CD75 /* Entity */,
+				4AA4B0C821C7D46100B2CD75 /* View controllers */,
+				4AA4B0C621C7D46100B2CD75 /* Web Service Manager */,
+				4AA4B09421C7D2FA00B2CD75 /* AppDelegate.h */,
+				4AA4B09521C7D2FA00B2CD75 /* AppDelegate.m */,
+				4AA4B09721C7D2FA00B2CD75 /* ViewController.h */,
+				4AA4B09821C7D2FA00B2CD75 /* ViewController.m */,
+				4AA4B09A21C7D2FB00B2CD75 /* Main.storyboard */,
+				4AA4B09D21C7D30D00B2CD75 /* Assets.xcassets */,
+				4AA4B09F21C7D30D00B2CD75 /* LaunchScreen.storyboard */,
+				4AA4B0A221C7D30D00B2CD75 /* Info.plist */,
+				4AA4B0A321C7D30D00B2CD75 /* main.m */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		4AA4B0AC21C7D30F00B2CD75 /* SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B0AD21C7D30F00B2CD75 /* SampleTests.m */,
+				4AA4B0AF21C7D30F00B2CD75 /* Info.plist */,
+			);
+			path = SampleTests;
+			sourceTree = "<group>";
+		};
+		4AA4B0B721C7D30F00B2CD75 /* SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B0B821C7D30F00B2CD75 /* SampleUITests.m */,
+				4AA4B0BA21C7D30F00B2CD75 /* Info.plist */,
+			);
+			path = SampleUITests;
+			sourceTree = "<group>";
+		};
+		4AA4B0C621C7D46100B2CD75 /* Web Service Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B0CF21C7D4F300B2CD75 /* WebServiceManager.h */,
+				4AA4B0D021C7D4F300B2CD75 /* WebServiceManager.m */,
+			);
+			path = "Web Service Manager";
+			sourceTree = "<group>";
+		};
+		4AA4B0C721C7D46100B2CD75 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B0C921C7D49700B2CD75 /* Product.h */,
+				4AA4B0CA21C7D49700B2CD75 /* Product.m */,
+				4AA4B0D221C7D6C400B2CD75 /* SBError.h */,
+				4AA4B0D321C7D6C400B2CD75 /* SBError.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		4AA4B0C821C7D46100B2CD75 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B0CC21C7D4C200B2CD75 /* ProductListViewController.h */,
+				4AA4B0CD21C7D4C200B2CD75 /* ProductListViewController.m */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		4AA4B0D521C7D87600B2CD75 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4B0D621C7D89900B2CD75 /* ProductParser.h */,
+				4AA4B0D721C7D89900B2CD75 /* ProductParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		4AB7331E21C7E0AB00A2C487 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4AB7331F21C7E0E800A2C487 /* ProductTableViewCell.h */,
+				4AB7332021C7E0E800A2C487 /* ProductTableViewCell.m */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		4AB7335721C805D800A2C487 /* Loder */ = {
+			isa = PBXGroup;
+			children = (
+				4AB7335821C805D800A2C487 /* SFActivityIndicator.h */,
+				4AB7335921C805D800A2C487 /* SFActivityIndicator.m */,
+			);
+			path = Loder;
+			sourceTree = "<group>";
+		};
+		4AB7335B21C8C12700A2C487 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4AF3309621D8973A00B59A9C /* acer_laptop_1.jpg */,
+				4AF330AA21D8973D00B59A9C /* bag_black_1.jpg */,
+				4AF3309C21D8973B00B59A9C /* bag_green_1.jpg */,
+				4AF3309B21D8973B00B59A9C /* bag_pink_1.jpg */,
+				4AF330F321D8974800B59A9C /* bag_red_1.jpg */,
+				4AF330F721D8974900B59A9C /* bag_red_2.jpg */,
+				4AF330C221D8974200B59A9C /* bag_red_3.jpg */,
+				4AF330E021D8974600B59A9C /* bag_safai_black_1.jpg */,
+				4AF3310B21D8974C00B59A9C /* bag_safai_black_2.jpg */,
+				4AF330A421D8973C00B59A9C /* bag_safai_black_3.jpg */,
+				4AF3311221D8974F00B59A9C /* bag_safai_black_4.jpg */,
+				4AF330F821D8974900B59A9C /* bag_safai_black_5.jpg */,
+				4AF330E721D8974600B59A9C /* bag_safai_black_6.jpg */,
+				4AF330F621D8974900B59A9C /* bag_safai_red_1.jpg */,
+				4AF3310E21D8974C00B59A9C /* bag_safai_red_2.jpg */,
+				4AF330E921D8974700B59A9C /* bag_safai_red_3.jpg */,
+				4AF330FC21D8974A00B59A9C /* bag_safai_red_4.jpg */,
+				4AF3309321D8973A00B59A9C /* bag_safai_red_5.jpg */,
+				4AF330A121D8973C00B59A9C /* bag_safai_red_6.jpg */,
+				4AF3309E21D8973B00B59A9C /* bag_safai_red_7.jpg */,
+				4AF3309221D8973A00B59A9C /* bag_safai_red_8.jpg */,
+				4AF3308A21D8973800B59A9C /* bag_safai_red_9.jpg */,
+				4AF330CA21D8974300B59A9C /* bag_safai_red_10.jpg */,
+				4AF3310D21D8974C00B59A9C /* bag_safai_red_11.jpg */,
+				4AF330E121D8974600B59A9C /* bag_safai_red_12.jpg */,
+				4AF330E321D8974600B59A9C /* bag_safai_white_1.jpg */,
+				4AF3308B21D8973900B59A9C /* bag_safai_white_2.jpg */,
+				4AF330C721D8974300B59A9C /* bag_safai_white_3.jpg */,
+				4AF330A821D8973D00B59A9C /* bag_safai_white_4.jpg */,
+				4AF330C921D8974300B59A9C /* bag_safai_white_5.jpg */,
+				4AF330D121D8974400B59A9C /* bag_white_1.jpg */,
+				4AF3310F21D8974C00B59A9C /* bag_yellow_1.jpg */,
+				4AF330BC21D8974200B59A9C /* camera_canon_1.jpg */,
+				4AF330D821D8974500B59A9C /* camera_canon_2.jpg */,
+				4AF3310A21D8974C00B59A9C /* camera_canon_3.jpg */,
+				4AF330CB21D8974300B59A9C /* camera_nikon_1.jpg */,
+				4AF3310C21D8974C00B59A9C /* camera_sony_1.jpg */,
+				4AF330F921D8974900B59A9C /* camera_sony_2.jpg */,
+				4AF3311121D8974F00B59A9C /* camera_sony_3.jpg */,
+				4AF3310321D8974B00B59A9C /* camera_sony_A1.jpg */,
+				4AF330B721D8974000B59A9C /* camera_sony_A2.jpg */,
+				4AF3310921D8974B00B59A9C /* camera_sony_A3.jpg */,
+				4AF3311421D8974F00B59A9C /* camera_sony_A4.jpg */,
+				4AF3309821D8973A00B59A9C /* camera_sony_A5.jpg */,
+				4AF330D721D8974500B59A9C /* camera_sony_A6.jpg */,
+				4AF330C321D8974300B59A9C /* camera_sony_A7.jpg */,
+				4AF330EA21D8974700B59A9C /* camera_sony_A8.jpg */,
+				4AF330A521D8973C00B59A9C /* camera_sony_A9.jpg */,
+				4AF3308D21D8973900B59A9C /* camera_sony_A10.jpg */,
+				4AF330D621D8974500B59A9C /* dell_laptop_1.jpg */,
+				4AF3309721D8973A00B59A9C /* dell_laptop_2.jpg */,
+				4AF330BE21D8974200B59A9C /* hp_laptop_1.jpg */,
+				4AF330D421D8974400B59A9C /* hp_laptop_2.jpg */,
+				4AF330ED21D8974700B59A9C /* hp_laptop_envy_1.jpg */,
+				4AF330FB21D8974900B59A9C /* hp_laptop_envy_2.jpg */,
+				4AF330DC21D8974500B59A9C /* jeans_black_1.jpg */,
+				4AF330AF21D8973E00B59A9C /* jeans_blue_1.jpg */,
+				4AF3309421D8973A00B59A9C /* jeans_peach_1.jpg */,
+				4AF330BF21D8974200B59A9C /* jeans_pink_1.jpg */,
+				4AF330A621D8973C00B59A9C /* jeans_red_1.jpg */,
+				4AF330AE21D8973D00B59A9C /* jeans_violet_1.jpg */,
+				4AF330C021D8974200B59A9C /* jeans_white_1.jpg */,
+				4AF330EF21D8974800B59A9C /* jeans_white_strech_1.jpg */,
+				4AF330F121D8974800B59A9C /* jeans_yellow_1.jpg */,
+				4AF3308C21D8973900B59A9C /* kurta_green_1.jpg */,
+				4AF330AB21D8973D00B59A9C /* kurti_black_1.jpg */,
+				4AF330CE21D8974400B59A9C /* kurti_blue_1.jpg */,
+				4AF330D521D8974400B59A9C /* kurti_peach_1.jpg */,
+				4AF330B221D8973E00B59A9C /* kurti_pink_1.jpg */,
+				4AF330DE21D8974600B59A9C /* kurti_white_1.jpg */,
+				4AF330D921D8974500B59A9C /* laptop_A1.jpg */,
+				4AF330A921D8973D00B59A9C /* laptop_A2.jpg */,
+				4AF3309521D8973A00B59A9C /* laptop_A3.jpg */,
+				4AF330DA21D8974500B59A9C /* laptop_A4.jpg */,
+				4AF330DF21D8974600B59A9C /* laptop_A5.jpg */,
+				4AF3310621D8974B00B59A9C /* laptop_A6.jpg */,
+				4AF330CC21D8974400B59A9C /* lenova_laptop_1.jpg */,
+				4AF330C821D8974300B59A9C /* lenova_laptop_2.jpg */,
+				4AF330C121D8974200B59A9C /* mac_laptop_1.jpg */,
+				4AF330FE21D8974A00B59A9C /* micromax_laptop_1.jpg */,
+				4AF330DB21D8974500B59A9C /* mobile_honor_blue_1.jpg */,
+				4AF3309021D8973900B59A9C /* mobile_lenova_1.jpg */,
+				4AF330E621D8974600B59A9C /* mobile_moto_1.jpg */,
+				4AF330A321D8973C00B59A9C /* mobile_moto_2.jpg */,
+				4AF330F521D8974800B59A9C /* mobile_moto_A1.jpg */,
+				4AF330FA21D8974900B59A9C /* mobile_moto_A2.jpg */,
+				4AF330E821D8974600B59A9C /* mobile_moto_A3.jpg */,
+				4AF3310421D8974B00B59A9C /* mobile_moto_A4.jpg */,
+				4AF330A021D8973C00B59A9C /* mobile_moto_A5.jpg */,
+				4AF330E521D8974600B59A9C /* mobile_moto_A6.jpg */,
+				4AF3309F21D8973B00B59A9C /* mobile_moto_A7.jpg */,
+				4AF3309A21D8973B00B59A9C /* mobile_moto_A8.jpg */,
+				4AF330EC21D8974700B59A9C /* mobile_moto_A9.jpg */,
+				4AF330D321D8974400B59A9C /* mobile_moto_A10.jpg */,
+				4AF330AC21D8973D00B59A9C /* mobile_nokia_1.jpg */,
+				4AF3311021D8974D00B59A9C /* mobile_nokia_2.jpg */,
+				4AF330B521D8973F00B59A9C /* mobile_oneplus_1.jpg */,
+				4AF3310521D8974B00B59A9C /* mobile_redmi_1.jpg */,
+				4AF3309121D8973900B59A9C /* mobile_redmi_2.jpg */,
+				4AF3310221D8974A00B59A9C /* mobile_redmi_3.jpg */,
+				4AF3309D21D8973B00B59A9C /* mobile_samsung_1.jpg */,
+				4AF330CF21D8974400B59A9C /* mobile_samsung_2.jpg */,
+				4AF330D021D8974400B59A9C /* sarree_A1.jpg */,
+				4AF330F221D8974800B59A9C /* sarree_A2.jpg */,
+				4AF3308E21D8973900B59A9C /* sarree_A3.jpg */,
+				4AF330E421D8974600B59A9C /* sarree_A4.jpg */,
+				4AF330AD21D8973D00B59A9C /* sarree_A5.jpg */,
+				4AF330A721D8973C00B59A9C /* sarree_A6.jpg */,
+				4AF330DD21D8974500B59A9C /* sarree_A7.jpg */,
+				4AF330EB21D8974700B59A9C /* sarree_A8.jpg */,
+				4AF330B121D8973E00B59A9C /* sarree_A9.jpg */,
+				4AF330B021D8973E00B59A9C /* sarree_A10.jpg */,
+				4AF330A221D8973C00B59A9C /* sarree_A11.jpg */,
+				4AF330E221D8974600B59A9C /* sarree_blue_1.jpg */,
+				4AF330B321D8973E00B59A9C /* sarree_green_1.jpg */,
+				4AF3310021D8974A00B59A9C /* sarree_red_1.jpg */,
+				4AF330BD21D8974200B59A9C /* sarree_violet_1.jpg */,
+				4AF330EE21D8974700B59A9C /* sarree_white_1.jpg */,
+				4AF330B421D8973E00B59A9C /* sarree_yellow_1.jpg */,
+				4AF330B921D8974000B59A9C /* shirt_balck_formal_1.jpg */,
+				4AF330FD21D8974A00B59A9C /* shirt_black_formal_2.jpg */,
+				4AF330C421D8974300B59A9C /* shirt_blue_formal_1.jpg */,
+				4AF3311321D8974F00B59A9C /* shirt_fromal_green_1.jpg */,
+				4AF330B621D8973F00B59A9C /* shirt_green_formal_2.jpg */,
+				4AF330F021D8974800B59A9C /* shirt_peach_formal_1.jpg */,
+				4AF3310721D8974B00B59A9C /* shirt_peach_formal_2.jpg */,
+				4AF330BA21D8974000B59A9C /* shirt_pink_formal_1.jpg */,
+				4AF330B821D8974000B59A9C /* shirt_red_checked_1.jpg */,
+				4AF330C521D8974300B59A9C /* shirt_violet_formal_1.jpg */,
+				4AF3310821D8974B00B59A9C /* shirt_white_formal_2.jpg */,
+				4AF3310121D8974A00B59A9C /* shirt_white_plain_1.jpg */,
+				4AF330BB21D8974200B59A9C /* shirt_white_print_1.jpg */,
+				4AF3308F21D8973900B59A9C /* shirt_white_stripe_1.jpg */,
+				4AF330FF21D8974A00B59A9C /* shirt_yellow_formal_1.jpg */,
+				4AF330F421D8974800B59A9C /* tshirt_blue_formal_1.jpg */,
+				4AF330CD21D8974400B59A9C /* tshirt_pink_formal_1.jpg */,
+				4AF3309921D8973B00B59A9C /* tshirt_red_formal_1.jpg */,
+				4AF330D221D8974400B59A9C /* tshirt_violet_formal_1.jpg */,
+				4AF330C621D8974300B59A9C /* tshirt_yello_formal_1.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		747E12E573040F8AAFB9892B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209F89DA625CA895B03BD61B /* libPods-Sample.a */,
+				2811CF4801EDD8CEC23689B0 /* libPods-SampleTests.a */,
+				3392B5A68C8A1FA25938F19A /* libPods-SampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE4ABFC1FA49348680569903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F77AEE2FD513F424306DB9E7 /* Pods-Sample.debug.xcconfig */,
+				AB86ECCAAD95547DAC83C56E /* Pods-Sample.release.xcconfig */,
+				E2C3AB0EC58438F252E9231C /* Pods-SampleTests.debug.xcconfig */,
+				A3E60DD5B01370B3F37AA0ED /* Pods-SampleTests.release.xcconfig */,
+				6909F193307C021ADBEAF4A1 /* Pods-SampleUITests.debug.xcconfig */,
+				C31341B713E946694A22DC0A /* Pods-SampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA4B09021C7D2F800B2CD75 /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA4B0BD21C7D30F00B2CD75 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				3ED21651C9B9F75B94F87B49 /* [CP] Check Pods Manifest.lock */,
+				4AA4B08D21C7D2F800B2CD75 /* Sources */,
+				4AA4B08E21C7D2F800B2CD75 /* Frameworks */,
+				4AA4B08F21C7D2F800B2CD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = 4AA4B09121C7D2F800B2CD75 /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AA4B0A821C7D30F00B2CD75 /* SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA4B0C021C7D30F00B2CD75 /* Build configuration list for PBXNativeTarget "SampleTests" */;
+			buildPhases = (
+				143AE980957BD4607594E978 /* [CP] Check Pods Manifest.lock */,
+				4AA4B0A521C7D30F00B2CD75 /* Sources */,
+				4AA4B0A621C7D30F00B2CD75 /* Frameworks */,
+				4AA4B0A721C7D30F00B2CD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA4B0AB21C7D30F00B2CD75 /* PBXTargetDependency */,
+			);
+			name = SampleTests;
+			productName = SampleTests;
+			productReference = 4AA4B0A921C7D30F00B2CD75 /* SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AA4B0B321C7D30F00B2CD75 /* SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA4B0C321C7D30F00B2CD75 /* Build configuration list for PBXNativeTarget "SampleUITests" */;
+			buildPhases = (
+				87F6F0802ED2354F6865C460 /* [CP] Check Pods Manifest.lock */,
+				4AA4B0B021C7D30F00B2CD75 /* Sources */,
+				4AA4B0B121C7D30F00B2CD75 /* Frameworks */,
+				4AA4B0B221C7D30F00B2CD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA4B0B621C7D30F00B2CD75 /* PBXTargetDependency */,
+			);
+			name = SampleUITests;
+			productName = SampleUITests;
+			productReference = 4AA4B0B421C7D30F00B2CD75 /* SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA4B08921C7D2F800B2CD75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ramesh D";
+				TargetAttributes = {
+					4AA4B09021C7D2F800B2CD75 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4AA4B0A821C7D30F00B2CD75 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4AA4B09021C7D2F800B2CD75;
+					};
+					4AA4B0B321C7D30F00B2CD75 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4AA4B09021C7D2F800B2CD75;
+					};
+				};
+			};
+			buildConfigurationList = 4AA4B08C21C7D2F800B2CD75 /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA4B08821C7D2F800B2CD75;
+			productRefGroup = 4AA4B09221C7D2F800B2CD75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA4B09021C7D2F800B2CD75 /* Sample */,
+				4AA4B0A821C7D30F00B2CD75 /* SampleTests */,
+				4AA4B0B321C7D30F00B2CD75 /* SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA4B08F21C7D2F800B2CD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF3312B21D8975000B59A9C /* mobile_moto_A5.jpg in Resources */,
+				4AF3312621D8975000B59A9C /* bag_pink_1.jpg in Resources */,
+				4AF3313321D8975000B59A9C /* bag_safai_white_4.jpg in Resources */,
+				4AF3313621D8975000B59A9C /* kurti_black_1.jpg in Resources */,
+				4AB7335621C7F9A800A2C487 /* Bg.png in Resources */,
+				4AF3316721D8975000B59A9C /* jeans_black_1.jpg in Resources */,
+				4AF3313C21D8975000B59A9C /* sarree_A9.jpg in Resources */,
+				4AF3315B21D8975000B59A9C /* sarree_A1.jpg in Resources */,
+				4AF3316421D8975000B59A9C /* laptop_A1.jpg in Resources */,
+				4AF3311D21D8975000B59A9C /* bag_safai_red_8.jpg in Resources */,
+				4AF3319721D8975000B59A9C /* camera_sony_1.jpg in Resources */,
+				4AF3313F21D8975000B59A9C /* sarree_yellow_1.jpg in Resources */,
+				4AF3315621D8975000B59A9C /* camera_nikon_1.jpg in Resources */,
+				4AF3314821D8975000B59A9C /* sarree_violet_1.jpg in Resources */,
+				4AF3314A21D8975000B59A9C /* jeans_pink_1.jpg in Resources */,
+				4AF3312721D8975000B59A9C /* bag_green_1.jpg in Resources */,
+				4AF3316F21D8975000B59A9C /* sarree_A4.jpg in Resources */,
+				4AB7335221C7F2AE00A2C487 /* Sample 2_0.jpg in Resources */,
+				4AF3318C21D8975000B59A9C /* shirt_white_plain_1.jpg in Resources */,
+				4AF3312F21D8975000B59A9C /* bag_safai_black_3.jpg in Resources */,
+				4AF3315521D8975000B59A9C /* bag_safai_red_10.jpg in Resources */,
+				4AF3311621D8975000B59A9C /* bag_safai_white_2.jpg in Resources */,
+				4AF3318521D8975000B59A9C /* mobile_moto_A2.jpg in Resources */,
+				4AF3318021D8975000B59A9C /* mobile_moto_A1.jpg in Resources */,
+				4AF3312E21D8975000B59A9C /* mobile_moto_2.jpg in Resources */,
+				4AF3315C21D8975000B59A9C /* bag_white_1.jpg in Resources */,
+				4AF3318121D8975000B59A9C /* bag_safai_red_1.jpg in Resources */,
+				4AF3318921D8975000B59A9C /* micromax_laptop_1.jpg in Resources */,
+				4AF3316521D8975000B59A9C /* laptop_A4.jpg in Resources */,
+				4AF3314321D8975000B59A9C /* shirt_red_checked_1.jpg in Resources */,
+				4AF3312821D8975000B59A9C /* mobile_samsung_1.jpg in Resources */,
+				4AB7335421C7F70700A2C487 /* 698627-icon-111-search-512.png in Resources */,
+				4AF3313D21D8975000B59A9C /* kurti_pink_1.jpg in Resources */,
+				4AF3319E21D8975000B59A9C /* shirt_fromal_green_1.jpg in Resources */,
+				4AF3315121D8975000B59A9C /* tshirt_yello_formal_1.jpg in Resources */,
+				4AF3315821D8975000B59A9C /* tshirt_pink_formal_1.jpg in Resources */,
+				4AF3317021D8975000B59A9C /* mobile_moto_A6.jpg in Resources */,
+				4AF3316C21D8975000B59A9C /* bag_safai_red_12.jpg in Resources */,
+				4AF3313421D8975000B59A9C /* laptop_A2.jpg in Resources */,
+				4AF3317D21D8975000B59A9C /* sarree_A2.jpg in Resources */,
+				4AF3313021D8975000B59A9C /* camera_sony_A9.jpg in Resources */,
+				4AF3311C21D8975000B59A9C /* mobile_redmi_2.jpg in Resources */,
+				4AF3314621D8975000B59A9C /* shirt_white_print_1.jpg in Resources */,
+				4AF3314F21D8975000B59A9C /* shirt_blue_formal_1.jpg in Resources */,
+				4AF3319B21D8975000B59A9C /* mobile_nokia_2.jpg in Resources */,
+				4AF3316921D8975000B59A9C /* kurti_white_1.jpg in Resources */,
+				4AF3317421D8975000B59A9C /* bag_safai_red_3.jpg in Resources */,
+				4AF3317F21D8975000B59A9C /* tshirt_blue_formal_1.jpg in Resources */,
+				4AF3311821D8975000B59A9C /* camera_sony_A10.jpg in Resources */,
+				4AF3319D21D8975000B59A9C /* bag_safai_black_4.jpg in Resources */,
+				4AF3319621D8975000B59A9C /* bag_safai_black_2.jpg in Resources */,
+				4AF3316D21D8975000B59A9C /* sarree_blue_1.jpg in Resources */,
+				4AF3317521D8975000B59A9C /* camera_sony_A8.jpg in Resources */,
+				4AF3316021D8975000B59A9C /* kurti_peach_1.jpg in Resources */,
+				4AF3316B21D8975000B59A9C /* bag_safai_black_1.jpg in Resources */,
+				4AF3317821D8975000B59A9C /* hp_laptop_envy_1.jpg in Resources */,
+				4AF3313E21D8975000B59A9C /* sarree_green_1.jpg in Resources */,
+				4AF3312121D8975000B59A9C /* acer_laptop_1.jpg in Resources */,
+				4AF3314921D8975000B59A9C /* hp_laptop_1.jpg in Resources */,
+				4AF3314B21D8975000B59A9C /* jeans_white_1.jpg in Resources */,
+				4AF3312421D8975000B59A9C /* tshirt_red_formal_1.jpg in Resources */,
+				4AF3318221D8975000B59A9C /* bag_red_2.jpg in Resources */,
+				4AF3319021D8975000B59A9C /* mobile_redmi_1.jpg in Resources */,
+				4AF3315721D8975000B59A9C /* lenova_laptop_1.jpg in Resources */,
+				4AF3316821D8975000B59A9C /* sarree_A7.jpg in Resources */,
+				4AF3318F21D8975000B59A9C /* mobile_moto_A4.jpg in Resources */,
+				4AF3313A21D8975000B59A9C /* jeans_blue_1.jpg in Resources */,
+				4AF3317921D8975000B59A9C /* sarree_white_1.jpg in Resources */,
+				4AF3319521D8975000B59A9C /* camera_canon_3.jpg in Resources */,
+				4AF3314221D8975000B59A9C /* camera_sony_A2.jpg in Resources */,
+				4AF3314121D8975000B59A9C /* shirt_green_formal_2.jpg in Resources */,
+				4AF3319A21D8975000B59A9C /* bag_yellow_1.jpg in Resources */,
+				4AF3315D21D8975000B59A9C /* tshirt_violet_formal_1.jpg in Resources */,
+				4AF3318821D8975000B59A9C /* shirt_black_formal_2.jpg in Resources */,
+				4AF3315E21D8975000B59A9C /* mobile_moto_A10.jpg in Resources */,
+				4AF3312521D8975000B59A9C /* mobile_moto_A8.jpg in Resources */,
+				4AF3311921D8975000B59A9C /* sarree_A3.jpg in Resources */,
+				4AF3312221D8975000B59A9C /* dell_laptop_2.jpg in Resources */,
+				4AF3311721D8975000B59A9C /* kurta_green_1.jpg in Resources */,
+				4AF3318321D8975000B59A9C /* bag_safai_black_5.jpg in Resources */,
+				4AF3314521D8975000B59A9C /* shirt_pink_formal_1.jpg in Resources */,
+				4AF3317221D8975000B59A9C /* bag_safai_black_6.jpg in Resources */,
+				4AF3314021D8975000B59A9C /* mobile_oneplus_1.jpg in Resources */,
+				4AF3313821D8975000B59A9C /* sarree_A5.jpg in Resources */,
+				4AF3313221D8975000B59A9C /* sarree_A6.jpg in Resources */,
+				4AF3315321D8975000B59A9C /* lenova_laptop_2.jpg in Resources */,
+				4AF3316121D8975000B59A9C /* dell_laptop_1.jpg in Resources */,
+				4AF3317A21D8975000B59A9C /* jeans_white_strech_1.jpg in Resources */,
+				4AF3319121D8975000B59A9C /* laptop_A6.jpg in Resources */,
+				4AF3319321D8975000B59A9C /* shirt_white_formal_2.jpg in Resources */,
+				4AF3311A21D8975000B59A9C /* shirt_white_stripe_1.jpg in Resources */,
+				4AF3319821D8975000B59A9C /* bag_safai_red_11.jpg in Resources */,
+				4AF3314E21D8975000B59A9C /* camera_sony_A7.jpg in Resources */,
+				4AF3313521D8975000B59A9C /* bag_black_1.jpg in Resources */,
+				4AF3317721D8975000B59A9C /* mobile_moto_A9.jpg in Resources */,
+				4AA4B0A121C7D30D00B2CD75 /* LaunchScreen.storyboard in Resources */,
+				4AF3317621D8975000B59A9C /* sarree_A8.jpg in Resources */,
+				4AF3316E21D8975000B59A9C /* bag_safai_white_1.jpg in Resources */,
+				4AF3313121D8975000B59A9C /* jeans_red_1.jpg in Resources */,
+				4AF3319921D8975000B59A9C /* bag_safai_red_2.jpg in Resources */,
+				4AF3315221D8975000B59A9C /* bag_safai_white_3.jpg in Resources */,
+				4AF3313721D8975000B59A9C /* mobile_nokia_1.jpg in Resources */,
+				4AA4B09E21C7D30D00B2CD75 /* Assets.xcassets in Resources */,
+				4AF3312921D8975000B59A9C /* bag_safai_red_7.jpg in Resources */,
+				4AF3314C21D8975000B59A9C /* mac_laptop_1.jpg in Resources */,
+				4AF3318421D8975000B59A9C /* camera_sony_2.jpg in Resources */,
+				4AF3319421D8975000B59A9C /* camera_sony_A3.jpg in Resources */,
+				4AF3317121D8975000B59A9C /* mobile_moto_1.jpg in Resources */,
+				4AF3315A21D8975000B59A9C /* mobile_samsung_2.jpg in Resources */,
+				4AF3318621D8975000B59A9C /* hp_laptop_envy_2.jpg in Resources */,
+				4AF3312D21D8975000B59A9C /* sarree_A11.jpg in Resources */,
+				4AF3317C21D8975000B59A9C /* jeans_yellow_1.jpg in Resources */,
+				4AF3311521D8975000B59A9C /* bag_safai_red_9.jpg in Resources */,
+				4AF3318E21D8975000B59A9C /* camera_sony_A1.jpg in Resources */,
+				4AF3315F21D8975000B59A9C /* hp_laptop_2.jpg in Resources */,
+				4AF3311F21D8975000B59A9C /* jeans_peach_1.jpg in Resources */,
+				4AF3316321D8975000B59A9C /* camera_canon_2.jpg in Resources */,
+				4AF3311E21D8975000B59A9C /* bag_safai_red_5.jpg in Resources */,
+				4AF3313921D8975000B59A9C /* jeans_violet_1.jpg in Resources */,
+				4AF3318721D8975000B59A9C /* bag_safai_red_4.jpg in Resources */,
+				4AF3313B21D8975000B59A9C /* sarree_A10.jpg in Resources */,
+				4AF3318D21D8975000B59A9C /* mobile_redmi_3.jpg in Resources */,
+				4AF3318A21D8975000B59A9C /* shirt_yellow_formal_1.jpg in Resources */,
+				4AF3316621D8975000B59A9C /* mobile_honor_blue_1.jpg in Resources */,
+				4AF3311B21D8975000B59A9C /* mobile_lenova_1.jpg in Resources */,
+				4AF3319221D8975000B59A9C /* shirt_peach_formal_2.jpg in Resources */,
+				4AF3317E21D8975000B59A9C /* bag_red_1.jpg in Resources */,
+				4AF3319C21D8975000B59A9C /* camera_sony_3.jpg in Resources */,
+				4AF3316221D8975000B59A9C /* camera_sony_A6.jpg in Resources */,
+				4AF3317321D8975000B59A9C /* mobile_moto_A3.jpg in Resources */,
+				4AF3317B21D8975000B59A9C /* shirt_peach_formal_1.jpg in Resources */,
+				4AF3315921D8975000B59A9C /* kurti_blue_1.jpg in Resources */,
+				4AA4B09C21C7D2FB00B2CD75 /* Main.storyboard in Resources */,
+				4AF3312321D8975000B59A9C /* camera_sony_A5.jpg in Resources */,
+				4AF3312A21D8975000B59A9C /* mobile_moto_A7.jpg in Resources */,
+				4AF3315021D8975000B59A9C /* shirt_violet_formal_1.jpg in Resources */,
+				4AF3318B21D8975000B59A9C /* sarree_red_1.jpg in Resources */,
+				4AF3314721D8975000B59A9C /* camera_canon_1.jpg in Resources */,
+				4AF3314D21D8975000B59A9C /* bag_red_3.jpg in Resources */,
+				4AF3314421D8975000B59A9C /* shirt_balck_formal_1.jpg in Resources */,
+				4AF3315421D8975000B59A9C /* bag_safai_white_5.jpg in Resources */,
+				4AF3316A21D8975000B59A9C /* laptop_A5.jpg in Resources */,
+				4AF3312C21D8975000B59A9C /* bag_safai_red_6.jpg in Resources */,
+				4AF3312021D8975000B59A9C /* laptop_A3.jpg in Resources */,
+				4AF3319F21D8975000B59A9C /* camera_sony_A4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA4B0A721C7D30F00B2CD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA4B0B221C7D30F00B2CD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		143AE980957BD4607594E978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED21651C9B9F75B94F87B49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F6F0802ED2354F6865C460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA4B08D21C7D2F800B2CD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA4B0D821C7D89900B2CD75 /* ProductParser.m in Sources */,
+				4AA4B0D121C7D4F300B2CD75 /* WebServiceManager.m in Sources */,
+				4AA4B0D421C7D6C400B2CD75 /* SBError.m in Sources */,
+				4AA4B0CE21C7D4C200B2CD75 /* ProductListViewController.m in Sources */,
+				4AA4B09921C7D2FA00B2CD75 /* ViewController.m in Sources */,
+				4AA4B0CB21C7D49700B2CD75 /* Product.m in Sources */,
+				4AB7332121C7E0E800A2C487 /* ProductTableViewCell.m in Sources */,
+				4AB7335A21C805D800A2C487 /* SFActivityIndicator.m in Sources */,
+				4AA4B0A421C7D30D00B2CD75 /* main.m in Sources */,
+				4AA4B09621C7D2FA00B2CD75 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA4B0A521C7D30F00B2CD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA4B0AE21C7D30F00B2CD75 /* SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA4B0B021C7D30F00B2CD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA4B0B921C7D30F00B2CD75 /* SampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AA4B0AB21C7D30F00B2CD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA4B09021C7D2F800B2CD75 /* Sample */;
+			targetProxy = 4AA4B0AA21C7D30F00B2CD75 /* PBXContainerItemProxy */;
+		};
+		4AA4B0B621C7D30F00B2CD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA4B09021C7D2F800B2CD75 /* Sample */;
+			targetProxy = 4AA4B0B521C7D30F00B2CD75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AA4B09A21C7D2FB00B2CD75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA4B09B21C7D2FB00B2CD75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AA4B09F21C7D30D00B2CD75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA4B0A021C7D30D00B2CD75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA4B0BB21C7D30F00B2CD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AA4B0BC21C7D30F00B2CD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA4B0BE21C7D30F00B2CD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77AEE2FD513F424306DB9E7 /* Pods-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68694S66AT;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-files.Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA4B0BF21C7D30F00B2CD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB86ECCAAD95547DAC83C56E /* Pods-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68694S66AT;
+				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-files.Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AA4B0C121C7D30F00B2CD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C3AB0EC58438F252E9231C /* Pods-SampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = SampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspiresys.SampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
+			};
+			name = Debug;
+		};
+		4AA4B0C221C7D30F00B2CD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E60DD5B01370B3F37AA0ED /* Pods-SampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = SampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspiresys.SampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
+			};
+			name = Release;
+		};
+		4AA4B0C421C7D30F00B2CD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6909F193307C021ADBEAF4A1 /* Pods-SampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = SampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspiresys.SampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sample;
+			};
+			name = Debug;
+		};
+		4AA4B0C521C7D30F00B2CD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31341B713E946694A22DC0A /* Pods-SampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = SampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspiresys.SampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA4B08C21C7D2F800B2CD75 /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA4B0BB21C7D30F00B2CD75 /* Debug */,
+				4AA4B0BC21C7D30F00B2CD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA4B0BD21C7D30F00B2CD75 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA4B0BE21C7D30F00B2CD75 /* Debug */,
+				4AA4B0BF21C7D30F00B2CD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA4B0C021C7D30F00B2CD75 /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA4B0C121C7D30F00B2CD75 /* Debug */,
+				4AA4B0C221C7D30F00B2CD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA4B0C321C7D30F00B2CD75 /* Build configuration list for PBXNativeTarget "SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA4B0C421C7D30F00B2CD75 /* Debug */,
+				4AA4B0C521C7D30F00B2CD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA4B08921C7D2F800B2CD75 /* Project object */;
+}
